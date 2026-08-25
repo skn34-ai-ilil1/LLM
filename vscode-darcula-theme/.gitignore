@@ -1,0 +1,5 @@
+node_modules/
+.build-tools/
+dist/*.vsix
+*.log
+.DS_Store

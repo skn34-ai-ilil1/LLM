@@ -59,3 +59,4 @@ GoogleNews-*
 03_text_vectorization/gnews_model_wv
 03_text_vectorization/ted_en_fasttext.model.wv.vectors_ngrams.npy
 nsmc_model
+db/
