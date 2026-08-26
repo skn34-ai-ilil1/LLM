@@ -13,6 +13,7 @@ their respective owners.
 - Dark Modern workbench surfaces with classic Darcula syntax accents
 - Syntax colors for common languages and markup
 - Detailed Python/Pylance semantic highlighting
+- Dedicated Neo4j Cypher syntax and semantic highlighting
 - Notebook, terminal, Markdown, diff, and Rainbow CSV colors
 - One declarative package for Windows, macOS, Linux, and vscode.dev
 - No executable code, telemetry, network requests, or workspace access

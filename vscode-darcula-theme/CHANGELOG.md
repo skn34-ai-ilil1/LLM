@@ -2,6 +2,13 @@
 
 All notable changes to this extension are documented here.
 
+## 1.0.4 - 2026-08-26
+
+- Added dedicated TextMate and semantic highlighting for Cypher.
+- Separated query keywords, functions, labels, properties, variables,
+  parameters, literals, operators, and comments with the Darcula palette.
+- Fixed Neo4j's `variable.property` scope falling back to the base text color.
+
 ## 1.0.3 - 2026-08-25
 
 - Matched the workbench backgrounds shown by VS Code Dark Modern when the

@@ -346,6 +346,97 @@
       }
     },
     {
+      "name": "Cypher Darcula base text and variables",
+      "scope": [
+        "source.cypher",
+        "source.cypher variable"
+      ],
+      "settings": {
+        "foreground": "#A9B7C6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula comments",
+      "scope": "source.cypher comment",
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula keywords",
+      "scope": "source.cypher keyword",
+      "settings": {
+        "foreground": "#CC7832",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula operators",
+      "scope": "source.cypher keyword.operator",
+      "settings": {
+        "foreground": "#A9B7C6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula functions and procedures",
+      "scope": "source.cypher entity.name.function",
+      "settings": {
+        "foreground": "#FFC66D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula node and relationship labels",
+      "scope": "source.cypher entity.name.class",
+      "settings": {
+        "foreground": "#769AA5",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula properties",
+      "scope": "source.cypher variable.property",
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula parameter markers",
+      "scope": "source.cypher entity.name.namespace",
+      "settings": {
+        "foreground": "#94558D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula strings",
+      "scope": "source.cypher string",
+      "settings": {
+        "foreground": "#6A8759",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula numbers",
+      "scope": "source.cypher constant.numeric",
+      "settings": {
+        "foreground": "#6897BB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Cypher Darcula string escapes",
+      "scope": "source.cypher constant.character.escape",
+      "settings": {
+        "foreground": "#CC7832",
+        "fontStyle": ""
+      }
+    },
+    {
       "scope": [
         "constant.character.escape.backslash.regexp",
         "constant.character.escape.c",
@@ -1697,6 +1788,20 @@
     }
   ],
   "semanticTokenColors": {
+    "comment:cypher": "#808080",
+    "keyword:cypher": "#CC7832",
+    "operator:cypher": "#A9B7C6",
+    "string:cypher": "#6A8759",
+    "number:cypher": "#6897BB",
+    "namespace:cypher": "#94558D",
+    "parameter:cypher": "#AE8ABE",
+    "type:cypher": "#769AA5",
+    "enum:cypher": "#769AA5",
+    "enumMember:cypher": "#9876AA",
+    "function:cypher": "#FFC66D",
+    "property:cypher": "#9876AA",
+    "variable:cypher": "#A9B7C6",
+    "macro:cypher": "#BBB529",
     "property:java": {
       "foreground": "#9876aa"
     },

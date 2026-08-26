@@ -32,7 +32,7 @@ npm install
 npm run validate
 npm run list:vsix
 npm run package:vsix
-code --install-extension dist/darcula-classic-py-lab-1.0.3.vsix --force
+code --install-extension dist/darcula-classic-py-lab-1.0.4.vsix --force
 ```
 
 Test the theme on Windows and macOS with representative Python, JavaScript,
