@@ -339,6 +339,17 @@
       }
     },
     {
+      "name": "Android Studio Classic Darcula JSX attribute names",
+      "scope": [
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#467CDA",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Darcula fallback - invalid tokens",
       "scope": "invalid",
       "settings": {
@@ -1175,7 +1186,7 @@
         "variable.parameter.function-call.python"
       ],
       "settings": {
-        "foreground": "#AA4926"
+        "foreground": "#467CDA"
       }
     },
     {
@@ -1487,10 +1498,10 @@
       }
     },
     {
-      "name": "Python Darcula keyword argument names",
+      "name": "Android Studio Classic Darcula Python keyword argument names",
       "scope": "variable.parameter.function-call.python",
       "settings": {
-        "foreground": "#AA4926",
+        "foreground": "#467CDA",
         "fontStyle": ""
       }
     },
@@ -1900,7 +1911,7 @@
     "parameter:python": "#A9B7C6",
     "selfParameter:python": "#94558D",
     "clsParameter:python": "#94558D",
-    "parameter.keywordArgument:python": "#AA4926",
+    "parameter.keywordArgument:python": "#467CDA",
     "function.builtin:python": "#8888C6",
     "method.builtin:python": "#A9B7C6",
     "class.builtin:python": "#8888C6",

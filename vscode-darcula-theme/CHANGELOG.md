@@ -2,6 +2,26 @@
 
 All notable changes to this extension are documented here.
 
+## 1.0.7 - 2026-08-27
+
+- Matched JavaScript JSX and TypeScript JSX attribute names such as `role`,
+  `className`, and `data-*` to the named-argument blue (`#467CDA`).
+
+## 1.0.6 - 2026-08-27
+
+- Added Pylance as an extension dependency so official VS Code installs it
+  automatically when Marketplace access is available.
+- Enabled Python inlay hints and padding by default.
+- Enabled Pylance call-argument-name hints for all supported arguments.
+- Kept these options as configuration defaults so users can override them.
+
+## 1.0.5 - 2026-08-27
+
+- Matched Python function-call keyword arguments to Android Studio Classic
+  Darcula's Kotlin named-argument blue (`#467CDA`).
+- Updated both TextMate and Pylance semantic-token rules so the color remains
+  consistent with either highlighting path.
+
 ## 1.0.4 - 2026-08-26
 
 - Added dedicated TextMate and semantic highlighting for Cypher.

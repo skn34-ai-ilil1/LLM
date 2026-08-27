@@ -12,6 +12,23 @@ for (const field of requiredManifestFields) {
   if (!manifest[field]) errors.push(`package.json is missing ${field}`);
 }
 
+const pylanceExtensionId = "ms-python.vscode-pylance";
+if (!(manifest.extensionDependencies ?? []).includes(pylanceExtensionId)) {
+  errors.push(`package.json must depend on ${pylanceExtensionId}.`);
+}
+
+const configurationDefaults = manifest.contributes?.configurationDefaults ?? {};
+const pythonEditorDefaults = configurationDefaults["[python]"] ?? {};
+if (pythonEditorDefaults["editor.inlayHints.enabled"] !== "on") {
+  errors.push("Python inlay hints must default to 'on'.");
+}
+if (pythonEditorDefaults["editor.inlayHints.padding"] !== true) {
+  errors.push("Python inlay-hint padding must default to true.");
+}
+if (configurationDefaults["python.analysis.inlayHints.callArgumentNames"] !== "all") {
+  errors.push("Pylance call-argument-name hints must default to 'all'.");
+}
+
 const themes = manifest.contributes?.themes ?? [];
 if (themes.length !== 1) errors.push("Exactly one color theme must be contributed.");
 
@@ -29,6 +46,21 @@ for (const contribution of themes) {
   if (theme.type !== "dark") errors.push("Theme type must be 'dark'.");
   if (!theme.colors || !theme.tokenColors || !theme.semanticTokenColors) {
     errors.push("Theme must include colors, tokenColors, and semanticTokenColors.");
+  }
+
+  const jsxAttributeRule = theme.tokenColors?.find(
+    (rule) => rule.name === "Android Studio Classic Darcula JSX attribute names",
+  );
+  const jsxAttributeScopes = Array.isArray(jsxAttributeRule?.scope)
+    ? jsxAttributeRule.scope
+    : [jsxAttributeRule?.scope];
+  for (const scope of ["entity.other.attribute-name.js.jsx", "entity.other.attribute-name.tsx"]) {
+    if (!jsxAttributeScopes.includes(scope)) {
+      errors.push(`JSX attribute rule must include ${scope}.`);
+    }
+  }
+  if (jsxAttributeRule?.settings?.foreground !== "#467CDA") {
+    errors.push("JSX attribute names must use #467CDA.");
   }
 }
 

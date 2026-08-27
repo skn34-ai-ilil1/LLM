@@ -13,6 +13,9 @@ their respective owners.
 - Dark Modern workbench surfaces with classic Darcula syntax accents
 - Syntax colors for common languages and markup
 - Detailed Python/Pylance semantic highlighting
+- Android Studio Classic Darcula blue for Python call keyword arguments
+- Matching named-argument blue for JavaScript and TypeScript JSX attributes
+- Automatic Python call-argument inlay hints through the Pylance dependency
 - Dedicated Neo4j Cypher syntax and semantic highlighting
 - Notebook, terminal, Markdown, diff, and Rainbow CSV colors
 - One declarative package for Windows, macOS, Linux, and vscode.dev
@@ -28,11 +31,23 @@ After installing the extension:
 To install a downloaded VSIX instead:
 
 ```sh
-code --install-extension darcula-classic-py-lab-1.0.0.vsix
+code --install-extension darcula-classic-py-lab-1.0.7.vsix
 ```
 
 You can also use **Extensions: Install from VSIX...** from the Extensions
 view menu.
+
+## Python call-argument inlay hints
+
+Pylance is declared as an extension dependency. The theme supplies default
+settings that enable Python inlay hints, add padding, and show all supported
+call-argument names. Explicit user or workspace settings can override these
+defaults.
+
+With Marketplace access, official VS Code downloads Pylance automatically
+when this extension is installed, including installation from the downloaded
+VSIX. Offline or Marketplace-blocked environments must install Pylance
+separately.
 
 ## Recommended font: JetBrains Mono
 

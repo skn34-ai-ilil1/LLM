@@ -2,7 +2,7 @@
   "name": "darcula-classic-py-lab",
   "displayName": "Py Darcula Classic Theme",
   "description": "An unofficial, cross-platform VS Code color theme inspired by the classic IntelliJ Darcula palette.",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "publisher": "py-darcula-theme-lab",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {
@@ -30,6 +30,9 @@
   "extensionKind": [
     "ui"
   ],
+  "extensionDependencies": [
+    "ms-python.vscode-pylance"
+  ],
   "capabilities": {
     "untrustedWorkspaces": {
       "supported": true
@@ -40,10 +43,17 @@
   },
   "scripts": {
     "validate": "node scripts/validate-theme.mjs",
-    "package:vsix": "node scripts/validate-theme.mjs && vsce package --out dist/darcula-classic-py-lab-1.0.4.vsix",
+    "package:vsix": "node scripts/validate-theme.mjs && vsce package --out dist/darcula-classic-py-lab-1.0.7.vsix",
     "list:vsix": "vsce ls"
   },
   "contributes": {
+    "configurationDefaults": {
+      "[python]": {
+        "editor.inlayHints.enabled": "on",
+        "editor.inlayHints.padding": true
+      },
+      "python.analysis.inlayHints.callArgumentNames": "all"
+    },
     "themes": [
       {
         "label": "Py Darcula Classic",
