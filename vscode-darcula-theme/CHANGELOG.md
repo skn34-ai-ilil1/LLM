@@ -2,6 +2,25 @@
 
 All notable changes to this extension are documented here.
 
+## 1.1.1 - 2026-09-02
+
+- Matched Python `self` and `cls` to the keyword orange (`#CC7832`) used by
+  `class`, across both TextMate and Pylance semantic highlighting.
+
+## 1.1.0 - 2026-08-28
+
+- Added Kotlin semantic colors for declarations, type references, properties,
+  parameters, enum members, functions, keywords, literals, and comments.
+- Matched Kotlin annotations to Python's decorator yellow (`#BBB529`).
+- Matched call-site named arguments, including annotation arguments, to
+  Darcula's blue (`#467CDA`) without recoloring defaults or assignments.
+- Separated Kotlin class declarations (`#A9B7C6`) from type and return-type
+  references (`#769AA5`).
+- Matched Kotlin `this` and `super` to keyword orange (`#CC7832`).
+- Added desktop and web runtime entry points with no telemetry or network use.
+- Reconstructed a clean, reproducible package source without installed-extension
+  metadata or modified third-party Kotlin extension files.
+
 ## 1.0.7 - 2026-08-27
 
 - Matched JavaScript JSX and TypeScript JSX attribute names such as `role`,

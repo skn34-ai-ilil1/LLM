@@ -194,7 +194,11 @@
     "notificationLink.foreground": "#589DF6",
     "terminal.background": "#1F1F1F",
     "terminal.foreground": "#A9B7C6",
-    "terminalCursor.foreground": "#BBBBBB"
+    "terminalCursor.foreground": "#BBBBBB",
+    "pyDarcula.kotlin.annotation": "#BBB529",
+    "pyDarcula.kotlin.namedArgument": "#467CDA",
+    "pyDarcula.kotlin.classDeclaration": "#A9B7C6",
+    "pyDarcula.kotlin.receiver": "#CC7832"
   },
   "tokenColors": [
     {
@@ -1493,7 +1497,7 @@
         "variable.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#94558D",
+        "foreground": "#CC7832",
         "fontStyle": ""
       }
     },
@@ -1813,6 +1817,49 @@
     "property:cypher": "#9876AA",
     "variable:cypher": "#A9B7C6",
     "macro:cypher": "#BBB529",
+    "comment:kotlin": "#808080",
+    "keyword:kotlin": "#CC7832",
+    "modifier:kotlin": "#CC7832",
+    "operator:kotlin": "#A9B7C6",
+    "string:kotlin": "#6A8759",
+    "number:kotlin": "#6897BB",
+    "namespace:kotlin": "#A9B7C6",
+    "type:kotlin": "#769AA5",
+    "class:kotlin": "#769AA5",
+    "interface:kotlin": "#769AA5",
+    "enum:kotlin": "#769AA5",
+    "struct:kotlin": "#769AA5",
+    "type.declaration:kotlin": "#A9B7C6",
+    "class.declaration:kotlin": "#A9B7C6",
+    "interface.declaration:kotlin": "#A9B7C6",
+    "enum.declaration:kotlin": "#A9B7C6",
+    "struct.declaration:kotlin": "#A9B7C6",
+    "typeParameter:kotlin": "#507874",
+    "parameter:kotlin": "#9876AA",
+    "variable:kotlin": "#A9B7C6",
+    "property:kotlin": "#9876AA",
+    "property.static:kotlin": {
+      "foreground": "#9876AA",
+      "italic": true
+    },
+    "enumMember:kotlin": {
+      "foreground": "#9876AA",
+      "italic": true
+    },
+    "function:kotlin": "#FFC66D",
+    "method:kotlin": "#FFC66D",
+    "function.declaration:kotlin": "#FFC66D",
+    "method.declaration:kotlin": "#FFC66D",
+    "function.static:kotlin": {
+      "foreground": "#FFC66D",
+      "italic": true
+    },
+    "method.static:kotlin": {
+      "foreground": "#FFC66D",
+      "italic": true
+    },
+    "decorator:kotlin": "#BBB529",
+    "macro:kotlin": "#BBB529",
     "property:java": {
       "foreground": "#9876aa"
     },
@@ -1909,8 +1956,8 @@
     "magicFunction:python": "#B200B2",
     "magicFunction.declaration:python": "#B200B2",
     "parameter:python": "#A9B7C6",
-    "selfParameter:python": "#94558D",
-    "clsParameter:python": "#94558D",
+    "selfParameter:python": "#CC7832",
+    "clsParameter:python": "#CC7832",
     "parameter.keywordArgument:python": "#467CDA",
     "function.builtin:python": "#8888C6",
     "method.builtin:python": "#A9B7C6",

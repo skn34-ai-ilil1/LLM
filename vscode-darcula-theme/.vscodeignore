@@ -4,7 +4,10 @@
 .vscode/**
 .build-tools/**
 dist/**
+!dist/extension.js
 scripts/**
+src/**
+test/**
 *.vsix
 *.log
 *.code-workspace
