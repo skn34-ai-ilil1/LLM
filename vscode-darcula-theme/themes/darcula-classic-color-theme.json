@@ -1960,7 +1960,7 @@
     "clsParameter:python": "#CC7832",
     "parameter.keywordArgument:python": "#467CDA",
     "function.builtin:python": "#8888C6",
-    "method.builtin:python": "#A9B7C6",
+    "method.builtin:python": "#8888C6",
     "class.builtin:python": "#8888C6",
     "type.builtin:python": "#8888C6",
     "variable.builtin:python": "#8888C6",

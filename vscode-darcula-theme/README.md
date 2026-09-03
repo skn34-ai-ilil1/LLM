@@ -32,7 +32,7 @@ After installing the extension:
 To install a downloaded VSIX instead:
 
 ```sh
-code --install-extension darcula-classic-py-lab-1.1.1.vsix
+code --install-extension darcula-classic-py-lab-1.1.2.vsix
 ```
 
 You can also choose **Extensions: Install from VSIX...** from the Extensions

@@ -176,6 +176,12 @@ for (const contribution of themes) {
       errors.push(`Semantic token ${selector} must use #CC7832.`);
     }
   }
+
+  for (const selector of ["function.builtin:python", "method.builtin:python"]) {
+    if (semanticForeground(theme.semanticTokenColors?.[selector]) !== "#8888C6") {
+      errors.push(`Semantic token ${selector} must use #8888C6.`);
+    }
+  }
 }
 
 const iconPath = path.join(root, manifest.icon ?? "");

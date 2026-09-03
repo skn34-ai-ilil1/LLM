@@ -40,3 +40,8 @@
 [0827/141615.354:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
 [0827/141709.371:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
 [0827/141710.005:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
+[0903/101049.910:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
+[0903/101050.613:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
+[0903/101102.057:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
+[0903/101105.418:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)
+[0903/102809.326:ERROR:third_party\crashpad\crashpad\util\win\registration_protocol_win.cc:108] CreateFile: 액세스가 거부되었습니다. (0x5)

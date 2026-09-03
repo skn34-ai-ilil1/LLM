@@ -2,6 +2,11 @@
 
 All notable changes to this extension are documented here.
 
+## 1.1.2 - 2026-09-03
+
+- Distinguished Python built-in methods such as `list.append` from variables
+  by matching the lavender (`#8888C6`) used for built-in functions.
+
 ## 1.1.1 - 2026-09-02
 
 - Matched Python `self` and `cls` to the keyword orange (`#CC7832`) used by
